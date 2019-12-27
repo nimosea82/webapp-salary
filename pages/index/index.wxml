@@ -1,7 +1,54 @@
 <!--index.wxml-->
-<view class="container">
+ 
 	<scroll-view scroll-y="true" class="container">
-		<view class="search flex-wrp">
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/search.png"></image>
+							<input placeholder="     搜索月份" placeholder-class="search-placeholder"></input>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+			<view class="box-center">box center</view>
+			<view class="box-bottom">box bottom</view>
+		</view>
+
+		<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>
+
+		<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>		
+			<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>
+
+		<view class="test1">
+			hello test2
+		</view>
+		<view class="test1">
+			hello test2
+		</view>		
+
+		<!-- <view class="search flex-wrp">
 			<view class="search-left flex-item">
 				<image src="../../images/search.png"></image>
 				<input placeholder="输入月份查询工资" placeholder-class="search-placeholder" />
@@ -9,11 +56,7 @@
 			<view class="search-right flex-item" bindtap="upper">
 				<image src="../../images/lighting.png"></image>
 			</view>
-		</view>
+		</view> -->
 
 	</scroll-view>
-
-
-</view>
-
-
+ 
