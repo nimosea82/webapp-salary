@@ -4,49 +4,155 @@
 		<view class="test1 flex-item">
 				<view class="box-top">
 					<view class="search-left">
-							<image src="/images/search.png"></image>
-							<input placeholder="     搜索月份" placeholder-class="search-placeholder"></input>
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">12月工资单</view>
+								<view>实发：3500.00</view>
+							</view>
 					</view>
 					<view class="search-right">
 							<image src="../../images/lighting.png"></image>
 					</view>					
 				</view>
-			<view class="box-center">box center</view>
-			<view class="box-bottom">box bottom</view>
+
 		</view>
 
-		<view class="test1">
-			hello test2
-		</view>
-		<view class="test1">
-			hello test2
-		</view>
-		<view class="test1">
-			hello test2
-		</view>
-		<view class="test1">
-			hello test2
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">11月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
 		</view>
 
-		<view class="test1">
-			hello test2
-		</view>
-		<view class="test1">
-			hello test2
-		</view>		
-			<view class="test1">
-			hello test2
-		</view>
-		<view class="test1">
-			hello test2
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">10月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
 		</view>
 
-		<view class="test1">
-			hello test2
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">9月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
 		</view>
-		<view class="test1">
-			hello test2
-		</view>		
+
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">8月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
+		</view>
+
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">7月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
+		</view>
+
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">6月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
+		</view>
+
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">5月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
+		</view>
+
+		<view class="test1 flex-item">
+				<view class="box-top">
+					<view class="search-left">
+							<image src="/images/money.png"></image>
+							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+							<view class="text-show">
+								<view class="text-month">4月工资单</view>
+								<view>实发：3300.12</view>
+							</view>
+					</view>
+					<view class="search-right">
+							<image src="../../images/lighting.png"></image>
+					</view>					
+				</view>
+
+		</view>
 
 		<!-- <view class="search flex-wrp">
 			<view class="search-left flex-item">

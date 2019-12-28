@@ -10,8 +10,6 @@
   color: #000;
 }
 
-
-
 .container .test1{
 
   color: chocolate;
@@ -33,15 +31,15 @@
 
 .box-top{
 
-  background-color: deepskyblue;
-  height: 60rpx;
+  /* background-color: deepskyblue; */
+  height: 200rpx;
   width: auto;
   padding: 5rpx;
   display: flex;
   flex-direction: row;
 }
 .search-left{
-    background-color: rgb(138, 234, 247);
+    /* background-color: rgb(138, 234, 247); */
     text-align: left;
     flex: 8;
     display: flex;
@@ -64,8 +62,8 @@
 
 .search-left image{
     display: inline-block;
-    width: 35rpx;
-    height: 35rpx;
+    width: 100rpx;
+    height:100rpx;
     padding: 15rpx 15rpx 15rpx 20rpx;    
 
 }
@@ -74,11 +72,27 @@
 
 
 .search-right{
-  background-color: deepskyblue;
+  /* background-color: deepskyblue; */
   height: 60rpx;
   flex: 1;
 
 }
+
+.search-left .text-show{
+  color: rgb(7, 124, 160);
+  display: flex;
+  flex-direction: column;
+  margin: 40rpx;
+
+}
+
+.search-left .text-show .text-month{
+  color: rgb(197, 84, 8);
+  font-size: 50rpx;
+
+}
+
+
 
 .search-right image{
   width: 45rpx;
