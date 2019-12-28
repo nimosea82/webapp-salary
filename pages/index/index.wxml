@@ -1,168 +1,299 @@
 <!--index.wxml-->
- 
-	<scroll-view scroll-y="true" class="container">
-		<view class="test1 flex-item" bindtap="bindSalaryInfo">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">12月工资单</view>
-								<view>实发：3500.00</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
 
-		</view>
+<scroll-view scroll-y="true" class="container">
+  <view class="test1 flex-item" bindtap="bindSalaryInfo">
+    <view class="box-top">
+      <view class="search-left">
+        <image src="/images/money.png"></image>
+        <!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
+        <view class="text-show">
+          <view class="text-month">12月工资单</view>
+          <view>实发：3500.00</view>
+        </view>
+      </view>
+      <view class="search-right">
+        <image src="../../images/lighting.png"></image>
+      </view>
+    </view>
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">11月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+  </view>
 
-		</view>
+  <block>
+    <view class="feed-item">
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">10月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head2.jpg"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
 
-		</view>
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">9月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+          </view>
 
-		</view>
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">8月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+        </view>
 
-		</view>
+      </view>
+    </view>
+  </block>
 
-		<view class="test1 flex-item" bindtap="salaryinfo">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">7月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+  <block>
+    <view class="feed-item">
 
-		</view>
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head1.png"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">6月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
 
-		</view>
+          </view>
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">5月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
 
-		</view>
+        </view>
 
-		<view class="test1 flex-item">
-				<view class="box-top">
-					<view class="search-left">
-							<image src="/images/money.png"></image>
-							<!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
-							<view class="text-show">
-								<view class="text-month">4月工资单</view>
-								<view>实发：3300.12</view>
-							</view>
-					</view>
-					<view class="search-right">
-							<image src="../../images/lighting.png"></image>
-					</view>					
-				</view>
+      </view>
+    </view>
+  </block>
 
-		</view>
+  <block>
+    <view class="feed-item">
 
-		<!-- <view class="search flex-wrp">
-			<view class="search-left flex-item">
-				<image src="../../images/search.png"></image>
-				<input placeholder="输入月份查询工资" placeholder-class="search-placeholder" />
-			</view>
-			<view class="search-right flex-item" bindtap="upper">
-				<image src="../../images/lighting.png"></image>
-			</view>
-		</view> -->
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head2.jpg"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
 
-	</scroll-view>
- 
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
+
+          </view>
+
+
+        </view>
+
+      </view>
+    </view>
+  </block>
+    <block>
+    <view class="feed-item">
+
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head1.png"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
+
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
+
+          </view>
+
+
+        </view>
+
+      </view>
+    </view>
+  </block>
+    <block>
+    <view class="feed-item">
+
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head2.jpg"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
+
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
+
+          </view>
+
+
+        </view>
+
+      </view>
+    </view>
+  </block>
+    <block>
+    <view class="feed-item">
+
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head2.jpg"></image>
+          </view>
+          <text>中国有条龙</text>
+          <text>回答</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{strQuestion}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{strAnswer}}</text>
+          </view>
+          <view class="answer-actions">
+
+            <view class="like dot">
+              <a>{{12}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{32}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
+
+          </view>
+
+
+        </view>
+
+      </view>
+    </view>
+  </block>
+</scroll-view>

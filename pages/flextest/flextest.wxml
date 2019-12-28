@@ -1,3 +1,9 @@
-<view class="flexmain">
-abc
+<view class="flex-container">
+  <view class="v1">1</view>
+  <view class="v2">2</view>
+  <view class="v3">3</view>
+  <!-- <view class="v4">4</view>
+  <view class="v5">5</view> -->
+
+
 </view>

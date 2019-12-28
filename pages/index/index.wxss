@@ -5,7 +5,7 @@
 
 .container{
   padding: 0;
-  font-size: 14rpx;
+  font-size: 26rpx;
   background: rgb(201, 209, 209);
   color: #000;
 }

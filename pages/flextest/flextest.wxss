@@ -1,10 +1,47 @@
 
-.flexmain{
-  height: 100%;
+.flex-container{
+  height: 500rpx;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background: rgb(213, 214, 162);
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: end;
 
 
 }
 
+.v1{
+  background: yellow;
+  height: 90rpx;  
+  width: 130rpx;
+  order: 2;
+  
+}
+.v2{
+  background: rgb(99, 196, 8);
+  height: 90rpx;
+  width: 130rpx;
+  flex-grow: 2;
+  order: 3;
+}
+
+.v3{
+  background: rgb(7, 172, 81);
+  height: 90rpx;
+  width: 130rpx;
+  flex-grow: 1;
+  order: 1;
+}
+.v4{
+  background: rgb(4, 128, 177);
+  height: 90rpx;
+  width: 130rpx;
+  flex-grow: 1;
+}
+.v5{
+  background: rgb(41, 8, 129);
+  height: 90rpx;
+  width: 130rpx;
+  color: white;
+}

@@ -1,4 +1,5 @@
 /**app.wxss**/
+
 .container {
   height: 100%;
   display: flex;
@@ -8,5 +9,99 @@
   /* padding: 200rpx 0; */
   box-sizing: border-box;
 
-} 
+}
 
+.container .feed-item {
+  width: 690rpx;
+  padding: 30rpx 30rpx 20rpx;
+  margin: 7rpx 0 6rpx 0;
+  background:#ffffff;
+  border-top: ipx solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.container .feed-item .feed-source {
+  width: 690rpx;
+  left: 0;
+  height: 70rpx;
+  /* background: rgb(105, 105, 255); */
+}
+
+.container .feed-item .feed-source .avatar {
+  position: relative;
+  display: inline-block;
+  /* background: rgb(31, 252, 167); */
+}
+
+.container .feed-item .feed-source a{
+  display: inline-block;
+  height: 60rpx;
+  /* background: rgb(193, 106, 243); */
+}
+
+.container .feed-item .feed-source .avatar image{
+  /*position: absolute;*/
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 45rpx;
+  top: 10rpx;
+  vertical-align: middle;
+}
+
+.container .feed-item .feed-source text{
+  /*position: absolute;*/
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+  vertical-align: middle;
+  margin: 0 0 0 15rpx;
+  color: #a0acac;
+  font-size: 32rpx;
+}
+
+.container .feed-item .feed-source .item-more{
+  /* display: inline-block; */
+  width: 40rpx;
+  height: 45rpx;
+  float: right;
+}
+
+.container .feed-item .feed-content{
+  padding: 10rpx 0 0 0;
+  /* background: rgb(105, 225, 255); */
+}
+
+.container .feed-item .feed-content .question text{
+  font-size: 34rpx;
+  font-weight: 600px;
+  line-height: 40rpx;
+  color: rgb(5, 36, 77);
+  
+  /* background: rgb(20, 233, 144); */
+}
+
+.container .feed-item .feed-content .answer-body{
+  padding: 10rpx 0 0 0;
+  /*height: 10rpx;*/
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #5b5b5b;
+  /* background: rgb(13, 119, 218); */
+}
+
+.container .feed-item .feed-content .answer-actions{
+  width: 690rpx;
+  padding: 10rpx 0  0;
+  color: #a0acac;
+}
+.container .feed-item .feed-content .answer-actions view{
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding: 0 10rpx 0 0;
+  font-size: 30rpx;
+}
+.container .feed-item .feed-content .answer-actions .dot ::after{
+  content: "•";
+}

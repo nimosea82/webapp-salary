@@ -7,7 +7,9 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    strQuestion: '速度赚到100万的方法都有哪些？',
+    strAnswer: '赚钱方法千千万万，敢于冒险敢于拼搏，人生不怕没钱。第一请拿把菜刀七银行走走看看，没事秀一下菜刀，自然会有人拱手给你钱，第二没事了去别人家里拜访一下，见到好的顺手也拿走吧。'
   },
   //事件处理函数
   bindViewTap: function() {

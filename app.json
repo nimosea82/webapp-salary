@@ -1,11 +1,10 @@
 {
-  "pages": [
-     "pages/flextest/flextest",   
+  "pages": [      
     "pages/index/index",
     "pages/logs/logs",
     "pages/salaryinfo/salaryinfo",
-    "pages/userinfo/userinfo"
-
+    "pages/userinfo/userinfo",
+    "pages/flextest/flextest"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,6 +12,41 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color":"#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_focus.png"
+      },
+      {
+        "pagePath": "pages/salaryinfo/salaryinfo",
+        "text": "工资",
+        "iconPath": "images/burger.png",
+        "selectedIconPath": "images/burger_focus.png"
+      },
+      {
+        "pagePath": "pages/flextest/flextest",
+        "text": "测试",
+        "iconPath": "images/discovery.png",
+        "selectedIconPath": "images/discovery_focus.png"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "我的",
+        "iconPath": "images/chat.png",
+        "selectedIconPath": "images/chat_focus.png"
+      }   
+    
+    ]
+  }
+  ,
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
