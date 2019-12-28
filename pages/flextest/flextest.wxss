@@ -1,5 +1,10 @@
 
 .flexmain{
-  background: chocolate;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(213, 214, 162);
+
+
 }
 
