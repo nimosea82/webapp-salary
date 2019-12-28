@@ -50,5 +50,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  bindSalaryInfo:function(){
+    wx.navigateTo({
+      url: '../flextest/flextest',
+    })
   }
+
+
 })

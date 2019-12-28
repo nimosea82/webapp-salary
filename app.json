@@ -1,9 +1,11 @@
 {
   "pages": [
+     "pages/flextest/flextest",   
     "pages/index/index",
     "pages/logs/logs",
     "pages/salaryinfo/salaryinfo",
     "pages/userinfo/userinfo"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

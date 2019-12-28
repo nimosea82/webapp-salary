@@ -1,7 +1,7 @@
 <!--index.wxml-->
  
 	<scroll-view scroll-y="true" class="container">
-		<view class="test1 flex-item">
+		<view class="test1 flex-item" bindtap="bindSalaryInfo">
 				<view class="box-top">
 					<view class="search-left">
 							<image src="/images/money.png"></image>
@@ -86,7 +86,7 @@
 
 		</view>
 
-		<view class="test1 flex-item">
+		<view class="test1 flex-item" bindtap="salaryinfo">
 				<view class="box-top">
 					<view class="search-left">
 							<image src="/images/money.png"></image>
