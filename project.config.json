@@ -13,6 +13,7 @@
 		"autoAudits": false,
 		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
+    "checkSiteMap":false,
 		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",

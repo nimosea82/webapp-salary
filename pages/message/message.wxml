@@ -1,0 +1,56 @@
+<view class="container">
+  <view class="msg-box">
+
+    <view class="msg-head">
+      <image src="../../images/head2.jpg"></image>
+    </view>
+    <view class="msg-body">
+      <view class="msg-username">
+        <a>{{'Sara'}}</a>
+      </view>
+      <view class="msg-content">
+        <a>{{'您好，请教一下如何变美，我想变成最美的姑娘，希望您能帮助我。'}}</a>
+      </view>
+    </view>
+    <view class="msg-time">
+      <a>{{'1天前'}}</a>
+
+    </view>
+  </view>
+  <view class="msg-box">
+
+    <view class="msg-head">
+      <image src="../../images/head1.png"></image>
+    </view>
+    <view class="msg-body">
+      <view class="msg-username">
+        <a>{{'Allen'}}</a>
+      </view>
+      <view class="msg-content">
+        <a>{{'您好，请教一下如何赚钱，我对赚钱非常渴望。'}}</a>
+      </view>
+    </view>
+    <view class="msg-time">
+      <a>{{'1天前'}}</a>
+
+    </view>
+  </view>
+  <view class="msg-box">
+
+    <view class="msg-head">
+      <image src="../../images/money.png"></image>
+    </view>
+    <view class="msg-body">
+      <view class="msg-username">
+        <a>{{'Allen'}}</a>
+      </view>
+      <view class="msg-content">
+        <a>{{'您好，加个好友。'}}</a>
+      </view>
+    </view>
+    <view class="msg-time">
+      <a>{{'1天前'}}</a>
+
+    </view>
+  </view>
+</view>

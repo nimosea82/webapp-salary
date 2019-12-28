@@ -1,10 +1,12 @@
 {
-  "pages": [      
+  "pages": [
+    "pages/message/message",
     "pages/index/index",
     "pages/logs/logs",
     "pages/salaryinfo/salaryinfo",
     "pages/userinfo/userinfo",
     "pages/flextest/flextest"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,16 +15,16 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color":"#626567",
+    "color": "#626567",
     "selectedColor": "#2A8CE5",
     "backgroundColor": "#FBFBFB",
     "borderStyle": "white",
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "images/index.png",
-      "selectedIconPath": "images/index_focus.png"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_focus.png"
       },
       {
         "pagePath": "pages/salaryinfo/salaryinfo",
@@ -31,7 +33,7 @@
         "selectedIconPath": "images/burger_focus.png"
       },
       {
-        "pagePath": "pages/flextest/flextest",
+        "pagePath": "pages/message/message",
         "text": "测试",
         "iconPath": "images/discovery.png",
         "selectedIconPath": "images/discovery_focus.png"
@@ -41,12 +43,9 @@
         "text": "我的",
         "iconPath": "images/chat.png",
         "selectedIconPath": "images/chat_focus.png"
-      }   
-    
+      }
     ]
-  }
-  ,
-
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
