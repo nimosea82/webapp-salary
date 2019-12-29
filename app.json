@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/chat/chat",
     "pages/message/message",
     "pages/index/index",
     "pages/logs/logs",
     "pages/salaryinfo/salaryinfo",
     "pages/userinfo/userinfo",
     "pages/flextest/flextest"
-    
+  
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -33,7 +34,7 @@
         "selectedIconPath": "images/burger_focus.png"
       },
       {
-        "pagePath": "pages/message/message",
+        "pagePath": "pages/chat/chat",
         "text": "测试",
         "iconPath": "images/discovery.png",
         "selectedIconPath": "images/discovery_focus.png"
