@@ -2,26 +2,26 @@
 <view class="container chat">
   <view class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head1.png"></image>
+      <image src="../../images/money.png"></image>
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
         <text class="chatmate">Alex</text>
         <text class="lasttime">1 个月前</text>
       </view>
-      <text class="chat-txt">您好，请教一下如何变美，我想变成最美的姑娘，希望您能帮助我~</text>
+      <text class="chat-txt">你的日志很好，继续加油~</text>
     </view>
   </view>
   <view class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head2.jpg"></image>
+      <image src="../../images/g.jpg"></image>
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
         <text class="chatmate">George</text>
         <text class="lasttime">3 个月前</text>
       </view>
-      <text class="chat-txt">您好，请教一下如何赚钱，我对赚钱非常渴望您好，请教一下如何赚钱，我对赚钱非常渴望您好，请教一下如何赚钱，我对赚钱非常渴望您好，请教一下如何赚钱，我对赚钱非常渴望~</text>
+      <text class="chat-txt">太棒了，文章很美~</text>
     </view>
   </view>
 

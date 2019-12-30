@@ -27,22 +27,10 @@
         "selectedIconPath": "images/index_focus.png"
       },
       {
-        "pagePath": "pages/salaryinfo/salaryinfo",
-        "text": "工资",
-        "iconPath": "images/burger.png",
-        "selectedIconPath": "images/burger_focus.png"
-      },
-      {
         "pagePath": "pages/chat/chat",
-        "text": "测试",
+        "text": "评论",
         "iconPath": "images/discovery.png",
         "selectedIconPath": "images/discovery_focus.png"
-      },
-      {
-        "pagePath": "pages/userinfo/userinfo",
-        "text": "我的",
-        "iconPath": "images/chat.png",
-        "selectedIconPath": "images/chat_focus.png"
       }
     ]
   },

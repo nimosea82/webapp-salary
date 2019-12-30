@@ -58,60 +58,16 @@
 
           </view>
 
-
-        </view>
-
-      </view>
-    </view>
-  </block>
-
-  <block>
-    <view class="feed-item">
-
-      <!-- 外面大框 feed-item -->
-      <view class="feed-source">
-        <!-- feed-source -->
-        <a class="">
-          <view class="avatar">
-            <image src="../../images/head1.png"></image>
-          </view>
-          <text>中国有条龙</text>
-          <text>日志</text>
-        </a>
-        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-      </view>
-      <view class="feed-content">
-        <!-- feed-content-->
-        <view class="question">
-          <a class="question-link">
-            <text>{{"2019年度"}}</text>
-          </a>
-        </view>
-        <view class="answer-body">
           <view>
-            <text class="answer-txt">{{strAnswer}}</text>
+            <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/suanmiao.jpg"></image>
           </view>
-          <view class="answer-actions">
-
-            <view class="like dot">
-              <a>{{12}} 赞同 </a>
-            </view>
-            <view class="comments dot">
-              <a>{{32}} 评论 </a>
-            </view>
-            <view class="follow-it">
-              <a>关注问题</a>
-            </view>  
-
-          </view>
-
-
         </view>
 
       </view>
     </view>
   </block>
 
+  
   <block>
     <view class="feed-item">
 
@@ -122,8 +78,8 @@
           <view class="avatar">
             <image src="../../images/head2.jpg"></image>
           </view>
-          <text>中国有条龙</text>
-          <text>回答</text>
+          <text>小雨</text>
+          <text>日志</text>
         </a>
         <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
       </view>
@@ -131,26 +87,77 @@
         <!-- feed-content-->
         <view class="question">
           <a class="question-link">
-            <text>{{strQuestion}}</text>
+            <text>{{"丢沙包"}}</text>
           </a>
         </view>
         <view class="answer-body">
           <view>
-            <text class="answer-txt">{{strAnswer}}</text>
+            <text class="answer-txt">{{"今天天气晴朗，万里无云，太阳照在身上暖暖的1，舒服极了。我和小A、小B等人在教学楼前玩丢沙包的游戏。游戏规则是：前、中、后各站二人，后排先扔，若砸到中排某人，就出局淘汰了，若前排接住了，在扔给后排，如果中排全部淘汰了的話，遊戲結束，重新開始。第一輪我站後排，我瞄準一人，用力一扔，便把那個人淘汰了。然後我又扔給小A，小A又把中排的人給淘汰了。第二輪我站在中排，連著兩次都沒有都沒有被砸中，但是我的“隊友”——小B被淘汰了，隨後我也被淘汰了。這次遊戲真有趣、真好玩，從這次遊戲中我懂得了做什麼死都要專心，不要馬虎。"}}</text>
           </view>
           <view class="answer-actions">
 
             <view class="like dot">
-              <a>{{12}} 赞同 </a>
+              <a>{{11}} 赞同 </a>
             </view>
             <view class="comments dot">
-              <a>{{32}} 评论 </a>
+              <a>{{2}} 评论 </a>
             </view>
             <view class="follow-it">
               <a>关注问题</a>
             </view>  
 
           </view>
+            <view>
+              <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/shabao.jpg"></image>
+            </view>
+
+        </view>
+
+      </view>
+    </view>
+  </block>
+    <block>
+    <view class="feed-item">
+
+      <!-- 外面大框 feed-item -->
+      <view class="feed-source">
+        <!-- feed-source -->
+        <a class="">
+          <view class="avatar">
+            <image src="../../images/head2.jpg"></image>
+          </view>
+          <text>小雨</text>
+          <text>日志</text>
+        </a>
+        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+      </view>
+      <view class="feed-content">
+        <!-- feed-content-->
+        <view class="question">
+          <a class="question-link">
+            <text>{{ "买鞋"}}</text>
+          </a>
+        </view>
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">{{"天天气很凉快，妈妈对我说：“今天天气还不错，有风，咱们去逛街吧，顺便给你买双鞋。”我开心极了。可是我们走过了好多家店都没有我喜欢的，走到最后一家店的时候，我没报着多大的希望，我进去以后，一道闪闪的亮光从我眼前闪过，我走过去仔细一看，哇，好漂亮的凉鞋呀。他是金黄色的，上面有人造的钻石，钻石底下还有一个漂亮的蝴蝶结，它在阳光下闪闪发光。"}}</text>
+          </view>
+          <view class="answer-actions">
+
+            <view class="like dot">
+              <a>{{23}} 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>{{12}} 评论 </a>
+            </view>
+            <view class="follow-it">
+              <a>关注问题</a>
+            </view>  
+
+          </view>
+            <view>
+              <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/xie.jpg"></image>
+            </view>
 
 
         </view>
@@ -177,12 +184,12 @@
         <!-- feed-content-->
         <view class="question">
           <a class="question-link">
-            <text>{{ "hellow"}}</text>
+            <text>{{"白日梦"}}</text>
           </a>
         </view>
         <view class="answer-body">
           <view>
-            <text class="answer-txt">{{strAnswer}}</text>
+            <text class="answer-txt">{{"有时候，我的脑海中总会闪现出一个不切合实际的念头。那就是，如果我是世界首富的话，那会怎么办？如果我是世界首富的话，一定不会忘了自己的亲人了。首先肯定要帮助我的父母了，其次，我一定要帮助我的叔叔和婶婶。他们对我很好。所以一定会帮助他们啦！然后再让亲戚们如果有需要，尽管来找我，毕竟他们对我也是可以的啦！但是做完这些之后，我还要向那些曾经看不起我的人，在我面前侮辱过我的人，欺负过我的人都知道，我学习不好怎么了？还不是成了首富……哎算了，不要想了，这只是一个白日梦罢了。我还是乖乖去学习吧。"}}</text>
           </view>
           <view class="answer-actions">
 
@@ -198,102 +205,10 @@
 
           </view>
 
-
         </view>
 
       </view>
     </view>
   </block>
-    <block>
-    <view class="feed-item">
-
-      <!-- 外面大框 feed-item -->
-      <view class="feed-source">
-        <!-- feed-source -->
-        <a class="">
-          <view class="avatar">
-            <image src="../../images/head2.jpg"></image>
-          </view>
-          <text>中国有条龙</text>
-          <text>回答</text>
-        </a>
-        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-      </view>
-      <view class="feed-content">
-        <!-- feed-content-->
-        <view class="question">
-          <a class="question-link">
-            <text>{{strQuestion}}</text>
-          </a>
-        </view>
-        <view class="answer-body">
-          <view>
-            <text class="answer-txt">{{strAnswer}}</text>
-          </view>
-          <view class="answer-actions">
-
-            <view class="like dot">
-              <a>{{12}} 赞同 </a>
-            </view>
-            <view class="comments dot">
-              <a>{{32}} 评论 </a>
-            </view>
-            <view class="follow-it">
-              <a>关注问题</a>
-            </view>  
-
-          </view>
-
-
-        </view>
-
-      </view>
-    </view>
-  </block>
-    <block>
-    <view class="feed-item">
-
-      <!-- 外面大框 feed-item -->
-      <view class="feed-source">
-        <!-- feed-source -->
-        <a class="">
-          <view class="avatar">
-            <image src="../../images/head2.jpg"></image>
-          </view>
-          <text>中国有条龙</text>
-          <text>回答</text>
-        </a>
-        <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-      </view>
-      <view class="feed-content">
-        <!-- feed-content-->
-        <view class="question">
-          <a class="question-link">
-            <text>{{strQuestion}}</text>
-          </a>
-        </view>
-        <view class="answer-body">
-          <view>
-            <text class="answer-txt">{{strAnswer}}</text>
-          </view>
-          <view class="answer-actions">
-
-            <view class="like dot">
-              <a>{{12}} 赞同 </a>
-            </view>
-            <view class="comments dot">
-              <a>{{32}} 评论 </a>
-            </view>
-            <view class="follow-it">
-              <a>关注问题</a>
-            </view>  
-
-          </view>
-
-
-        </view>
-
-      </view>
-    </view>
-  </block>
+    
 </scroll-view>
