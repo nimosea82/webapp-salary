@@ -1,13 +1,12 @@
 {
-  "pages": [
-    "pages/chat/chat",
-    "pages/message/message",
+  "pages": [ 
     "pages/index/index",
     "pages/logs/logs",
     "pages/salaryinfo/salaryinfo",
     "pages/userinfo/userinfo",
-    "pages/flextest/flextest"
-  
+    "pages/flextest/flextest",
+    "pages/chat/chat",
+    "pages/message/message"  
   ],
   "window": {
     "backgroundTextStyle": "light",
