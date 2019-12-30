@@ -7,8 +7,8 @@
         <image src="/images/money.png"></image>
         <!-- <input placeholder="     搜索月份" placeholder-class="search-placeholder"></input> -->
         <view class="text-show">
-          <view class="text-month">12月工资单</view>
-          <view>实发：3500.00</view>
+          <view class="text-month">小雨的个人空间</view>
+          <view>记录每日生活点滴</view>
         </view>
       </view>
       <view class="search-right">
@@ -28,8 +28,8 @@
           <view class="avatar">
             <image src="../../images/head2.jpg"></image>
           </view>
-          <text>中国有条龙</text>
-          <text>回答</text>
+          <text>小雨</text>
+          <text>日志</text>
         </a>
         <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
       </view>
@@ -76,7 +76,7 @@
             <image src="../../images/head1.png"></image>
           </view>
           <text>中国有条龙</text>
-          <text>回答</text>
+          <text>日志</text>
         </a>
         <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
       </view>
@@ -84,7 +84,7 @@
         <!-- feed-content-->
         <view class="question">
           <a class="question-link">
-            <text>{{strQuestion}}</text>
+            <text>{{"2019年度"}}</text>
           </a>
         </view>
         <view class="answer-body">
@@ -166,10 +166,10 @@
         <!-- feed-source -->
         <a class="">
           <view class="avatar">
-            <image src="../../images/head1.png"></image>
+            <image src="../../images/head2.jpg"></image>
           </view>
-          <text>中国有条龙</text>
-          <text>回答</text>
+          <text>小雨</text>
+          <text>日志</text>
         </a>
         <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
       </view>
@@ -177,7 +177,7 @@
         <!-- feed-content-->
         <view class="question">
           <a class="question-link">
-            <text>{{strQuestion}}</text>
+            <text>{{ "hellow"}}</text>
           </a>
         </view>
         <view class="answer-body">
