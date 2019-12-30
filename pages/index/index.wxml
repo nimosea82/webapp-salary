@@ -59,7 +59,7 @@
           </view>
 
           <view>
-            <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/suanmiao.jpg"></image>
+            <image src="../../images/suanmiao.jpg"></image>
           </view>
         </view>
 
@@ -108,7 +108,7 @@
 
           </view>
             <view>
-              <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/shabao.jpg"></image>
+              <image src="../../images/shabao.jpg"></image>
             </view>
 
         </view>
@@ -156,7 +156,7 @@
 
           </view>
             <view>
-              <image src="https://raw.githubusercontent.com/nimosea82/webapp-salary/master/images/xie.jpg"></image>
+              <image src="../../images/xie.jpg"></image>
             </view>
 
 
